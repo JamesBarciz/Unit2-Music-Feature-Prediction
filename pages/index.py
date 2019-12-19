@@ -16,9 +16,9 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Can We Predict the Genre of a Song?
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            Using features gathered by Python's LibROSA package, we will attempt to predict the genre of a song.
 
             ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
 
@@ -26,7 +26,7 @@ column1 = dbc.Col(
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Predict Song Genre', color='primary'), href='/predictions')
     ],
     md=4,
 )
