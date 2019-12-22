@@ -9,7 +9,7 @@ import plotly.express as px
 # Imports from this application
 from app import app
 
-# 2 column layout. 1st column width = 4/12
+# 2 column layout. 1st column width = 4/12 :)
 # https://dash-bootstrap-components.opensource.faculty.ai/l/components/layout
 column1 = dbc.Col(
     [
